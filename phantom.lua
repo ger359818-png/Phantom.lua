@@ -1,5 +1,4 @@
--- Phantom | 1 на HaLal pozdnyak
--- loadstring(game:HttpGet("https://raw.githubusercontent.com/YOU/phantom/main/phantom.lua"))()
+-- Phantom | HaLal pozdnyak
 
 local P=game:GetService("Players")local R=game:GetService("RunService")local U=game:GetService("UserInputService")local T=game:GetService("TweenService")local L=game:GetService("Lighting")local W=game:GetService("Workspace")local C=workspace.CurrentCamera local LP=P.LocalPlayer
 local function ping()local ok,v=pcall(function()return LP:GetNetworkPing()end)return ok and v or 0 end
@@ -2190,4 +2189,4 @@ fab.InputEnded:Connect(function(i)
 end)
 
 nt("Phantom","loaded | 1 на HaLal pozdnyak",4)
-print("[Phantom] v1.0 loaded | 1 на HaLal pozdnyak")
+print("[Phantom] v1.0 loaded | HaLal pozdnyak")
